@@ -27,7 +27,6 @@ public class Check24API{
     
    
     static ExtentTest test;
-    static ExtentTest test1;
     static ExtentReports report;
     
 
@@ -51,7 +50,7 @@ public class Check24API{
     	}
     	else
     	{
-    	test1.log(LogStatus.FAIL, "for ID "+ID+" got response code as "+statusCode);
+    	test.log(LogStatus.FAIL, "for ID "+ID+" got response code as "+statusCode);
     	}
     }
     
